@@ -22,7 +22,7 @@ function App(Props) {
                       className: "App-logo",
                       alt: "logo",
                       src: logo
-                    }), React.createElement("p", undefined, "Hello Vite + React!"), React.createElement("p", undefined, React.createElement("button", {
+                    }), React.createElement("p", undefined, "Hello Vite + React + ReScript!"), React.createElement("p", undefined, React.createElement("button", {
                           onClick: (function (_e) {
                               return Curry._1(setCount, (function (count) {
                                             return count + 1 | 0;
@@ -38,7 +38,12 @@ function App(Props) {
                           href: "https://vitejs.dev/guide/features.html",
                           rel: "noopener noreferrer",
                           target: "_blank"
-                        }, "Vite Docs"))));
+                        }, "Vite Docs"), " | ", React.createElement("a", {
+                          className: "App-link",
+                          href: "https://rescript-lang.org/docs/react/latest/introduction",
+                          rel: "noopener noreferrer",
+                          target: "_blank"
+                        }, "ReScript Docs"))));
 }
 
 var make = App;

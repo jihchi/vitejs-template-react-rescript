@@ -8,7 +8,7 @@ let make = () => {
   <div className="App">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <p> {"Hello Vite + React!"->React.string} </p>
+      <p> {"Hello Vite + React + ReScript!"->React.string} </p>
       <p>
         <button onClick={_e => setCount(count => count + 1)}>
           {`count is: ${count->Belt.Int.toString}`->React.string}
@@ -31,6 +31,14 @@ let make = () => {
           target="_blank"
           rel="noopener noreferrer">
           {"Vite Docs"->React.string}
+        </a>
+        {" | "->React.string}
+        <a
+          className="App-link"
+          href="https://rescript-lang.org/docs/react/latest/introduction"
+          target="_blank"
+          rel="noopener noreferrer">
+          {"ReScript Docs"->React.string}
         </a>
       </p>
     </header>
