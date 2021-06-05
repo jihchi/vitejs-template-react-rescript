@@ -2,8 +2,10 @@
   "name": "vite-react-rescript-starter",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "clean": "rescript clean -with-deps",
+    "dev": "vite",
+    "format": "rescript format -all",
     "serve": "vite preview"
   },
   "dependencies": {
