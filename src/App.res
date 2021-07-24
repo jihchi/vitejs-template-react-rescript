@@ -16,7 +16,7 @@ let make = () => {
       </p>
       <p>
         {"Edit "->React.string}
-        <code> {"App.jsx"->React.string} </code>
+        <code> {"App.res"->React.string} </code>
         {" and save to test HMR updates."->React.string}
       </p>
       <p>
