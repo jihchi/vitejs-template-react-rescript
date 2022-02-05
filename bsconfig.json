@@ -17,7 +17,7 @@
       "in-source": true
     }
   ],
-  "suffix": ".mjs",
+  "suffix": ".bs.js",
   "reason": {
     "react-jsx": 3
   },
