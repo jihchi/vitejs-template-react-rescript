@@ -4,6 +4,11 @@
     {
       "dir": "src",
       "subdirs": true
+    },
+    {
+      "dir": "tests",
+      "type": "dev",
+      "subdirs": true
     }
   ],
   "package-specs": [
@@ -13,9 +18,15 @@
     }
   ],
   "suffix": ".mjs",
-  "reason": { "react-jsx": 3 },
+  "reason": {
+    "react-jsx": 3
+  },
   "bs-dependencies": [
-    "@rescript/react", 
-    "@ryyppy/rescript-promise"
+    "@rescript/react",
+    "@ryyppy/rescript-promise",
+    "rescript-webapi"
+  ],
+  "bs-dev-dependencies": [
+    "rescript-vitest"
   ]
 }
