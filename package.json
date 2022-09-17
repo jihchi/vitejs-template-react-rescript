@@ -18,14 +18,14 @@
     "rescript-webapi": "^0.6.1"
   },
   "devDependencies": {
-    "@jihchi/vite-plugin-rescript": "^4.0.1",
+    "@jihchi/vite-plugin-rescript": "^4.1.0",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@vitejs/plugin-react": "^2.0.1",
+    "@testing-library/react": "^13.4.0",
+    "@vitejs/plugin-react": "^2.1.0",
     "jsdom": "^20.0.0",
     "rescript": "^10.0.1",
     "rescript-vitest": "^0.3.0",
-    "vite": "^3.0.9",
-    "vitest": "^0.23.0"
+    "vite": "^3.1.2",
+    "vitest": "^0.23.2"
   }
 }
