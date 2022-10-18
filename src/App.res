@@ -1,9 +1,29 @@
 @module("./logo.svg") external logo: string = "default"
 %%raw(`import './App.css'`)
 
+let generateRandom = async base => {
+  let random = await Promise.make((resolve, _reject) => {
+    Js.Global.setTimeout(() => {
+      resolve(. Js.Math.random_int(1, 100))
+    }, Js.Math.random_int(1, 3) * 1000)->ignore
+  })
+  base * random
+}
+
 @react.component
 let make = () => {
   let (count, setCount) = React.useState(() => 0)
+
+  React.useEffect0(() => {
+    generateRandom(1000)
+    ->Promise.then(random => {
+      setCount(count => count + random)
+      Promise.resolve(count)
+    })
+    ->ignore
+
+    None
+  })
 
   <div className="App">
     <header className="App-header">

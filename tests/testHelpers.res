@@ -7,6 +7,8 @@ module ReactTestingLibrary = {
   external screen: renderResult = "screen"
 
   @send external getByText: (renderResult, string) => Webapi.Dom.Element.t = "getByText"
+  @send
+  external findByText: (renderResult, string) => Promise.t<Webapi.Dom.Element.t> = "findByText"
 }
 
 module JsDom = {
