@@ -15,17 +15,17 @@
     "@ryyppy/rescript-promise": "^2.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rescript-webapi": "^0.6.1"
+    "rescript-webapi": "^0.7.0"
   },
   "devDependencies": {
     "@jihchi/vite-plugin-rescript": "^4.1.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@vitejs/plugin-react": "^2.1.0",
-    "jsdom": "^20.0.0",
+    "@vitejs/plugin-react": "^3.0.0",
+    "jsdom": "^20.0.3",
     "rescript": "^10.0.1",
-    "rescript-vitest": "^0.3.0",
-    "vite": "^3.1.2",
-    "vitest": "^0.23.2"
+    "rescript-vitest": "^0.3.1",
+    "vite": "^4.0.0",
+    "vitest": "^0.25.6"
   }
 }
