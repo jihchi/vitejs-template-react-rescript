@@ -24,7 +24,7 @@
     "@vitejs/plugin-react": "^3.0.0",
     "jsdom": "^20.0.3",
     "rescript": "^10.0.1",
-    "rescript-vitest": "^0.3.1",
+    "rescript-vitest": "^1.0.1",
     "vite": "^4.0.0",
     "vitest": "^0.25.6"
   }
