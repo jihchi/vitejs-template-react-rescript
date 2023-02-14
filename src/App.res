@@ -11,7 +11,7 @@ let make = () => {
       <p> {"Hello Vite + React + ReScript!"->React.string} </p>
       <p>
         <button onClick={_e => setCount(count => count + 1)}>
-          {`count is: ${count->Belt.Int.toString}`->React.string}
+          {`count is: ${count->Int.toString}`->React.string}
         </button>
       </p>
       <p>
