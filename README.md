@@ -16,3 +16,11 @@ cd my-vitejs-react-rescript
 npm i
 npm start
 ```
+
+## Contributors
+
+Many thanks for your help!
+
+<a href="https://github.com/jihchi/vitejs-template-react-rescript/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=jihchi/vitejs-template-react-rescript" />
+</a>
