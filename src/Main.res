@@ -1,6 +1,7 @@
-let root = ReactDOM.Client.createRoot(ReactDOM.querySelector("#root")->Option.getExn)
-ReactDOM.Client.Root.render(
-  root,
+ReactDOM.querySelector("#root")
+->Option.getExn
+->ReactDOM.Client.createRoot
+->ReactDOM.Client.Root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
