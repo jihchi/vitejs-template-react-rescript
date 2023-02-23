@@ -22,5 +22,7 @@ npm start
 Many thanks for your help!
 
 <a href="https://github.com/jihchi/vitejs-template-react-rescript/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=jihchi/vitejs-template-react-rescript" />
+  <img src="https://contrib.rocks/image?repo=jihchi/vitejs-template-react-rescript" />
 </a>
+
+The image of contributors is made with [contrib.rocks](https://contrib.rocks).
