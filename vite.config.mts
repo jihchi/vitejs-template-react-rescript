@@ -8,6 +8,7 @@ import createReScriptPlugin from '@jihchi/vite-plugin-rescript';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [createReactPlugin(), createReScriptPlugin()],
+  optimizeDeps: { include: ['react/jsx-dev-runtime'] },
   test: {
     include: ['tests/**/*_test.bs.js'],
     globals: true,
