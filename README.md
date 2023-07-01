@@ -17,6 +17,10 @@ npm i
 npm start
 ```
 
+## Alternatives
+
+- [rescript-lang/create-react-app](https://github.com/rescript-lang/create-rescript-app)
+
 ## Contributors
 
 Many thanks for your help!
@@ -26,3 +30,4 @@ Many thanks for your help!
 </a>
 
 The image of contributors is made with [contrib.rocks](https://contrib.rocks).
+
