@@ -11,14 +11,14 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@rescript/core": "^0.5.0",
+    "@rescript/core": "^0.6.0",
     "@rescript/react": "^0.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rescript-webapi": "^0.9.0"
   },
   "devDependencies": {
-    "@jihchi/vite-plugin-rescript": "^5.4.0",
+    "@jihchi/vite-plugin-rescript": "^5.5.0",
     "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/react": "^14.1.2",
     "@vitejs/plugin-react": "^4.2.0",
@@ -28,7 +28,7 @@
     "rescript": "^10.1.4",
     "rescript-vitest": "^1.2.0",
     "tailwindcss": "^3.3.5",
-    "vite": "^4.5.0",
+    "vite": "^5.0.2",
     "vitest": "^0.34.6"
   }
 }
