@@ -22,6 +22,7 @@
     "version": 4,
     "mode": "automatic"
   },
+  "uncurried": false,
   "bs-dependencies": ["@rescript/react", "@rescript/core", "rescript-webapi"],
   "bs-dev-dependencies": ["rescript-vitest"],
   "bsc-flags": ["-open RescriptCore"]
