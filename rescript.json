@@ -23,7 +23,7 @@
     "mode": "automatic"
   },
   "uncurried": false,
-  "bs-dependencies": ["@rescript/react", "@rescript/core", "rescript-webapi"],
-  "bs-dev-dependencies": ["rescript-vitest"],
-  "bsc-flags": ["-open RescriptCore"]
+  "dependencies": ["@rescript/react", "@rescript/core", "rescript-webapi"],
+  "dev-dependencies": ["rescript-vitest"],
+  "compiler-flags": ["-open RescriptCore"]
 }
