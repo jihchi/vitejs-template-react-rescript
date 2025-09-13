@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "vite build",
-    "clean": "rescript clean -with-deps",
+    "clean": "rescript clean",
     "format": "rescript format -all",
     "serve": "vite preview",
     "start": "vite",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@rescript/core": "^1.6.1",
-    "@rescript/react": "^0.12.1",
+    "@rescript/react": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rescript-webapi": "^0.9.1"
